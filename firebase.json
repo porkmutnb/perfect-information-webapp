@@ -1,0 +1,16 @@
+{
+  "hosting": {
+    "public": "dist/perfect-information-webapp/server",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}
